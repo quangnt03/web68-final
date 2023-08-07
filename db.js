@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const uri = "mongodb+srv://admin:admin@my-database.zct8dot.mongodb.net/";
+const uri = "mongodb+srv://admin:admin@my-database.zct8dot.mongodb.net/mindx";
 
 module.exports = async function () {
   try {

@@ -6,6 +6,6 @@ const InventorySchema = mongoose.Schema({
   descriptiom: String,
   instock: Number,
 });
-const Inventory = mongoose.model("Inventory", InventorySchema);
+const Inventory = mongoose.model("Inventory", InventorySchema, "Inventory");
 
 module.exports = Inventory;
